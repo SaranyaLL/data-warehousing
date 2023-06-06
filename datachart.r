@@ -1,0 +1,6 @@
+name<-c("vichu","sara","kishore","deva")
+mark<-c(99,77,82,56)
+grade<-c("D","U","F","M")
+df<-data.frame(name,greade,mark)
+write.csv(df,"grade.csv")
+view(df)
