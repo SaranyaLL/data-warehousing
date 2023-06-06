@@ -1,0 +1,7 @@
+data=read.csv("travel-times.csv")
+mean1=mean(data$movingtime)
+mode1=mode(data$avgspeed)
+median1=median(data$avgspeed)
+summary(data$avgmovingspeed)
+iqr1=IQR(data$Distance)
+view(mean1,mode1,median1,iqr1)
